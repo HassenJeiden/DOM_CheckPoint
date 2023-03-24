@@ -1,0 +1,105 @@
+.article{
+width: 210px;
+height: 210px;
+}
+
+.BlocArticle{
+    display: flex;
+    justify-content: center;
+    padding-left: 20%;
+}
+.additem{
+    width: 30px;
+    height: 30px;
+    border-color: chartreuse;
+}
+.delitem{
+    width: 30px;
+    height: 30px;
+    border-color:red ;
+}
+.nombre_article{
+    width: 40px;
+    height: 20px;
+    background-color: transparent;
+    border-color: blue;
+    text-align: center;
+}
+.product{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    margin: 20px;
+}
+.pic :hover {
+    border: 1px solid #777;
+  }
+.additem :hover {
+    background-color: chartreuse;
+  }
+.delitem :hover {
+    background-color: red;
+}
+.tbl {
+    width: 60%;
+    border: 1px solid rgba(117, 91, 91, 0.575);
+    font-size: large;
+}
+th, td{
+    border: 1px solid rgba(117, 91, 91, 0.575);   
+}
+
+tr:nth-child(even) {
+    background-color: #acf6f8a4;
+}
+label {
+    display: block;
+    justify-items: center;
+    width: 100%;
+    font-style: oblique;
+}
+.Title_Liste{
+    display: flex;
+    width: 100%;
+}
+h1, h2{
+    text-align: center;
+    color: red;
+}
+.Btn_Rem {
+    background-color: red;
+}
+.btn1 {
+    background: url(Images/twitter-heart.png);
+}
+.love-button {
+    background-color: white;
+    border: 2px solid red;
+    color: red;
+    font-size: 16px;
+    padding: 10px 20px;
+    transition-duration: 0.4s;
+    background-image: url(ilove.png);
+    image-rendering: inherit;
+  }
+  
+  .love-button:hover {
+    background-color: red;
+    color: white;
+  }
+  .btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .heart{
+    color:red !important;
+  }
+  form {
+    justify-items: center;
+  }
